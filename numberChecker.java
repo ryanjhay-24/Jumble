@@ -8,13 +8,13 @@ public class numberChecker {
 
         System.out.println("Enter a number: ");
         int num = sc.nextInt(); 
-
+        //checks if number is even or odd
         if (num % 2 == 0){
             System.out.println(num + " is even.");
         } else {
             System.out.println(num + " is odd.");
         }
-
+        //checks if number is positive, negative or zero
         if (num > 0){
             System.out.println(num + " is positive.");
         } else if (num < 0){
